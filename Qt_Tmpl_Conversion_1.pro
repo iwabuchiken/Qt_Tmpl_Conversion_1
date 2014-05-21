@@ -13,9 +13,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        converter.cpp
+        converter.cpp \
+    utils/assistant.cpp \
+    utils/findfiledialog.cpp \
+    utils/textedit.cpp
 
-HEADERS  += converter.h
+HEADERS  += converter.h \
+    include/assistant.h \
+    include/findfiledialog.h \
+    include/textedit.h
 
 FORMS    += converter.ui
 
